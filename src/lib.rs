@@ -15,9 +15,6 @@ mod tests {
 
     #[test]
     fn test_multiply() {
-        let mut a = 2.0_f64;
-        let mut b = 2.0_f64;
-        let result = multiply_impl(a, b);
-        print!("{}", result);
+        assert_eq!(multiply_impl(2.0, 2.0), 4.0);
     }
 }
