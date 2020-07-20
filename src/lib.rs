@@ -1,5 +1,3 @@
-use calcite;
-
 #[calcite::deno_op]
 fn multiply(a: f64, b: f64) -> f64 {
     multiply_impl(a, b)
