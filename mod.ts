@@ -1,7 +1,7 @@
 import {
     loadPlugin,
     importFromPlugin,
-} from "https://denopkg.com/Srinivasa314/calcite-ts@1.0/calcite.ts";
+} from "https://deno.land/x/calcite@2.2/calcite.ts";
 
 await loadPlugin("deno_digest_plugin", "file://target/debug/");
 
