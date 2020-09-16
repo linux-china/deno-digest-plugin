@@ -6,4 +6,4 @@ build-debug:
 
 test: build-debug
   rm -rf .deno_plugins
-  deno run --unstable --allow-plugin --allow-read --allow-write demo.ts
+  deno run --no-check --unstable --allow-plugin --allow-read --allow-write demo.ts
