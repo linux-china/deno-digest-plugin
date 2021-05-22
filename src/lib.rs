@@ -38,7 +38,7 @@ fn op_multiply_sync(
 
     println!("args: {:?}", args);
 
-    Ok(args.a + args.b)
+    Ok(args.a * args.b)
 }
 
 #[cfg(test)]
